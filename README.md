@@ -26,7 +26,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 ### 1. Clonar o repositório
 ```bash
 git clone <url-do-seu-repositorio>
-cd Agente_ATS
+cd AgenteATS
 ```
 
 ### 2. Criar e ativar o ambiente virtual (opcional, mas recomendado)
