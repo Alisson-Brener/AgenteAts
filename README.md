@@ -1,10 +1,10 @@
-# 🕵️ Agente Estratégico ATS (Sprint 2)
+# Agente Estratégico ATS (Sprint 2)
 
 Este projeto é uma ferramenta de Inteligência Artificial desenhada para atuar como um **Recrutador Tech Consultivo**. Ele realiza a análise de aderência entre uma Descrição de Vaga e o Currículo/Resumo Profissional de um candidato (foco em Applicant Tracking Systems - ATS).
 
 Nesta **Sprint 2**, o sistema evoluiu para um **Agente Conversacional** completo com memória, capaz de conduzir interações de forma estruturada, apontar lacunas e auxiliar o candidato a reescrever o currículo, culminando na geração automática de um currículo PDF otimizado.
 
-## 📌 Funcionalidades
+## Funcionalidades
 - **Chat Interativo com Memória:** Interface de bate-papo fluida (Streamlit) onde o agente conduz o processo de coleta da Vaga e do Currículo passo a passo.
 - **Tratamento de Ambiguidade:** O agente detecta se a vaga ou o currículo enviados estão incompletos e solicita mais detalhes antes de prosseguir com a análise.
 - **Análise Contextual (Gap Analysis):** Integração via LangChain com LLM para identificar as principais habilidades faltantes no currículo em comparação à vaga.
@@ -12,14 +12,14 @@ Nesta **Sprint 2**, o sistema evoluiu para um **Agente Conversacional** completo
 - **Ação Concreta (Geração de PDF):** Capacidade inteligente de converter as melhorias propostas diretamente para um PDF limpo e profissional, formatado para sistemas ATS (máx. 1 página).
 - **Download de Relatório:** Possibilidade de baixar todo o histórico da mentoria e diagnóstico em formato `.md`.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Backend:** [FastAPI](https://fastapi.tiangolo.com/) (para expor a API de chat)
 - **Frontend:** [Streamlit](https://streamlit.io/) (interface conversacional do usuário)
 - **Integração IA:** [LangChain](https://python.langchain.com/) + Modelos Google Generative AI (Gemini) e OpenAI (GPT)
 - **Geração e Parse de Documentos:** `fpdf2` e `markdown`
 - **Linguagem:** Python 3.x
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 Siga os passos abaixo para rodar o projeto localmente:
 
