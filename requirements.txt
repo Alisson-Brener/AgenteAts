@@ -7,3 +7,5 @@ langchain-google-genai
 streamlit
 python-dotenv
 requests
+fpdf2
+markdown
